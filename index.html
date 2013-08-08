@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Formosa Film Festival 2014</title>
+		
+		<link rel="stylesheet" href="./static/reset.css">
+		<script src="./static/jquery-1.10.2.min.js"></script>
+		<link rel="stylesheet" href="./static/bootstrap.min.css">			
+		<link rel="stylesheet/less" type="text/css" href="style.less" />
+		<script src="./static/less-1.4.1.min.js"></script>
+		<script src="http://rawgithub.com/flesler/jquery.scrollTo/master/jquery.scrollTo.min.js"></script>
+		<!--<link rel="stylesheet" href="./static/responsive.gs.12col.css">-->
+		<link id="favicon" rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+		<script>
+			$(window).bind("scroll", function() {
+    			console.log($(this).scrollTop());
+    			if($(this).scrollTop() >= 100) {
+    				$('#menuFade').fadeIn();
+    			} else {
+    				$('#menuFade').fadeOut();
+    			}
+    			//console.log($(window).height());
+			});
+
+		</script>
+		<script>
+		$(document).ready(function() {
+			$('.internalNav a').click(function(){
+			    $('html, body').animate({
+			        scrollTop: $( $(this).attr('href') ).offset().top
+			    }, 800, 'swing');
+			    return false;
+			});
+		});		
+		
+		</script>
+	</head>
+
+	<body class=''>
+
+
+		<div id='masthead'>
+			<div class="nav" style=''>  
+				<div class="internalNav">
+					<a href='#aboutFFF'>What is FFF?</a>  
+					<a href='#film_guidelines'>Film Guidelines</a>  
+					<a href='#challenges'>Challenges</a>  
+					<a>Submit a Film</a>  
+				</div>
+				<div class="nav" id='menuFade' style="background-color: rgba(83, 83, 83, 0.8);z-index: -1;display:none;">
+					<img src="FFF_badge.png" style="height: 35px;margin: 7px;margin-left: 10px;">
+				</div>				
+		    </div>
+
+
+			<div class="row">
+				<header id="banner" style='text-align:center;margin-top: 6%;'>
+					<h1 class="col-lg-12">FORMOSA FILM FESTIVAL</h1>
+					<h2 class="col-lg-12">April 25, 2013</h2>
+				</header>
+			</div>
+		</div>
+
+		<div id='aboutFFF' style='background: #2c3e50;padding-top: 70px;padding-bottom:70px;'>
+			<div class="row">
+				<img class="col-lg-5 col-lg-push-7" src='clapperboard.png' style='padding: 5%;padding-top: 0px;max-width: 100%;padding-bottom: 0px;padding-right: 2%;margin-top: -2%;'>
+				<div class="col-lg-7 col-lg-pull-5">
+					<div class='row'>
+						<h3 style='color: #93AABD;'>About FFF</h3>
+					</div>
+					<div class='row description_container'>
+						<p class='descriptions'>The Formosa Film Festival is an annual event held during Taipei American School’s arts week in April. This year's festival will be held on April 25th, 2013. During the event, films submitted by the community’s aspiring film makers are showcased and screened. The films are commented on live by a panel of judges, giving the film makers a chance to learn more about filmmaking and its appreciation. Members of the community are welcome to attend the event in the Small Theater.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id='film_guidelines' style='background: #783c5f;padding-top: 110px;padding-bottom:70px;min-height:600px;'>
+			<div class="row">
+				<img class="col-lg-5" src='camera_flat.png' style='padding-top: 0px;max-width: 100%;padding-bottom: 0px;'>
+				<div class="col-lg-7">
+					<div class='row'>
+						<h3 style='margin-top:0;color: #AFAF3A;'>Film Guidelines</h3>
+					</div>
+					<div class='row description_container'>
+						<p class='descriptions'>The Formosa Film Festival accepts the following types of films:</p>
+						<ul>
+							<li><strong>Narrative</strong>: A film that tells a story using various filmmaking techniques.</li>
+							<li><strong>Music Video</strong>: A short film that accompanies an original piece of music.</li>
+							<li><strong>Informative / Documentary</strong>: These may be instructional (i.e. a film illustrating a scientific concept or a PSA) or promotional (i.e. a trailer for an upcoming performing arts show or a highlight reel of sports).</li>
+							<li><strong>Animation and CG</strong>: A film that involves any sort of animation or motion graphics. These include stop-motion videos and cartoons.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id='challenges' style='background: #1D8B76;padding-top: 110px;padding-bottom:70px;min-height:600px;'>
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3 style="margin-top:0;color: #C1EFFA;opacity: 0.9;">Film Challenges</h3>
+				</div>
+			</div>			
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+					<img src="film_strip.png" style="padding-top: 0px;max-width: 100%;padding-bottom: 0px;float: left;width: 16.6%;">
+					<img src="film_strip.png" style="padding-top: 0px;max-width: 100%;padding-bottom: 0px;float: left;width: 16.6%;">
+					<img src="film_strip.png" style="padding-top: 0px;max-width: 100%;padding-bottom: 0px;float: left;width: 16.6%;">
+					<img src="film_strip.png" style="padding-top: 0px;max-width: 100%;padding-bottom: 0px;float: left;width: 16.6%;">
+					<img src="film_strip.png" style="padding-top: 0px;max-width: 100%;padding-bottom: 0px;float: left;width: 16.6%;">
+					<img src="film_strip.png" style="padding-top: 0px;max-width: 100%;padding-bottom: 0px;float: left;width: 16.6%;">
+				</div>
+			</div>
+
+			<div class="row" style='margin-top:20px;'>
+				<div class="col-lg-6" style='border-right: 1px solid white;'>
+					<p class='descriptions' style='color: #FFFFFF;opacity: 0.9;font-size: 17pt;'>Film challenges are monthly challenges given out to demonstrate different film-making techniques. Past challenges include time-lapse videos and stop-motion animations. Submitted videos are judged by faculty members, and the winner awarded a prize.</p>
+				</div>
+				<div class="col-lg-6" style="text-align: center;">
+					<h4 style="font-family: Fjalla One;color: #CDDB68;opacity: 0.9;font-size: 22pt;">Current Challenge:</h4>
+					<div class='row'>
+						<div class="col-lg-9">
+							<h4 style="font-family: Fjalla One;color: #E09191;opacity: 0.9;font-size: 34pt;">Create a time-lapse video featuring nature.</h4>
+						</div>
+						<div class="col-lg-3">
+							<div style="background: url(challenge_due.png);width: 100px;height: 130px;background-size: 100px 100px;text-align: center;background-repeat: no-repeat;background-position: 0 30px;margin-top: -20px;">
+								<h6 style="margin: 0;color: white;font-size: 14pt;font-weight: bold;padding-top: 5%;">DUE</h6>
+								<h6 style="margin: 0;color: white;font-size: 14pt;font-weight: bold;padding-top: 9%;">February</h6>
+								<h6 style="margin: 0;color: #34495e;font-size: 37pt;font-weight: bold;padding-top: 16%;">31</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>		
+	</body>
+</html>
