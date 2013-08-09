@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Mobile Menu CSS</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" media="screen" href="./css/mobilemenu.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			$(".nav-button").click(function () {
+				$(".nav-button,.primary-nav").toggleClass("open");
+			});    
+		});
+		</script>
+	</head>
+
+	<body>
+		<button class="nav-button">&nbsp</button>
+
+		<ul class="primary-nav">
+			<li><a href='#aboutFFF'>What is FFF?</a></li>
+			<li><a href='#film_guidelines'>Film Guidelines</a></li> 
+			<li><a href='#challenges'>Challenges</a></li>
+			<li><a href='#submit_a_film'>Submit a Film</a></li>
+		</ul>
+
+	</body>
+
+</html>

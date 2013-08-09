@@ -12,8 +12,11 @@
 		<script src="http://rawgithub.com/flesler/jquery.scrollTo/master/jquery.scrollTo.min.js"></script>
 		<link id="favicon" rel="shortcut icon" type="image/x-icon" href="favicon.png" />
 
+		<link rel="stylesheet" type="text/css" media="screen" href="./mobile_dropdown/css/mobilemenu.css"/>
+
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+ 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 		<script>
 		$(document).ready(function() {
@@ -29,6 +32,13 @@
 			    }, 800, 'swing');
 			    return false;
 			});
+			$('.primary-nav a').click(function(){
+			    $('html, body').animate({
+			        scrollTop: $( $(this).attr('href') ).offset().top
+			    }, 800, 'swing');
+			    return false;
+			});
+
 
 			if($(document).width() > 650) {
 				$(window).bind("scroll", function() {
@@ -43,6 +53,14 @@
 		});		
 		
 		</script>
+
+				<script>
+		$(document).ready(function(){
+			$(".nav-button").click(function () {
+				$(".nav-button,.primary-nav").toggleClass("open");
+			});    
+		});
+		</script>
 	</head>
 
 	<body class=''>
@@ -50,16 +68,20 @@
 		
 		<div id='masthead'>
 			<div class="container">
-				<div class="navbar" style='display:none'>
-				  <a class="navbar-brand" href="#">Title</a>
-				  <ul class="nav navbar-nav">
-				    <li class="active"><a href="#">Home</a></li>
-				    <li><a href="#">Link</a></li>
-				    <li><a href="#">Link</a></li>
-				  </ul>
+				
+				<div id='mobile_nav'>
+					<button class="nav-button">&nbsp</button>
+					<ul class="primary-nav">
+						<li><a href='#aboutFFF'>What is FFF?</a></li>
+						<li><a href='#film_guidelines'>Film Guidelines</a></li> 
+						<li><a href='#challenges'>Challenges</a></li>
+						<li><a href='#submit_a_film'>Submit a Film</a></li>
+					</ul>
 				</div>
+
+
 				<div class="nav" style=''>  
-					<div class="internalNav row">
+					<div class="internalNav">
 						<a href='#aboutFFF'>What is FFF?</a>  
 						<a href='#film_guidelines'>Film Guidelines</a>  
 						<a href='#challenges'>Challenges</a>  
@@ -72,9 +94,9 @@
 
 
 				<div class="row">
-					<header id="banner">
-						<h1 class="col-lg-12">FORMOSA FILM FESTIVAL</h1>
-						<h2 class="col-lg-12">April 25, 2013</h2>
+					<header  class="col-lg-12" id="banner">
+						<h1>FORMOSA FILM FESTIVAL</h1>
+						<h2>April 25, 2013</h2>
 					</header>
 				</div>
 			</div>
