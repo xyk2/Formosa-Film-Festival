@@ -148,12 +148,12 @@ a {
 }
 
 #challenges {
-	background: #1D8B76;padding-top: 110px;padding-bottom:70px;min-height:600px;
+	background: #1D8B76;padding-top: 110px;padding-bottom:70px;
 	h3 {
 		margin-top:0;color: #C1EFFA;opacity: 0.9;
 	}
 	.descriptions {
-		color: #FFFFFF;opacity: 0.9;font-size: 17pt;
+		color: #FFFFFF;opacity: 0.9;
 	}
 	#current_challenge {
 		text-align: center;
@@ -163,6 +163,9 @@ a {
 		h5 {
 			font-family: Fjalla One;color: #E6E6E6;opacity: 0.9;font-size: 34pt;
 		}
+	}
+	#challenges_info_container {
+		margin-top:20px;
 	}
 }
 
@@ -209,14 +212,39 @@ a {
 	display:none;
 }
 
-@media (max-width: 1025px) {
+#submit_a_film {
+	padding-top: 110px;padding-bottom:70px;min-height:600px;background-image:url(cardboard_flat.png);
+	h3 {
+		margin-top:0;color: #565D5F;opacity: 0.9;
+	}
+	.white_spacer {
+		height: 14px;border-bottom: 1px solid white;
+	}
+	#film_spacer {
+		float: left;width: 70%;margin-left: 15%;
+	}
+	.description_row {
+		margin-top:10px;
+	}
+	.descriptions {
+		text-align: center;
+	}
+	.button_row {
+		margin-top:15px;
+	}
+}
+
+
+
+
+@media (max-width: 992px) {
 	#aboutFFF img {
 		max-width:40%;
 		margin-left:30%;
 	}
 	#film_guidelines img {
-		max-width:60%;
-		margin-left:20%;
+		max-width: 40%;
+		margin-left: 30%;
 	}
 	#due_date {
 		margin-left: auto;
@@ -238,9 +266,61 @@ a {
 		margin-top:40px;
 	}
 	#entry_guidelines #entry_rules img {
-		width: 42%;
-		margin-left: 29%;
+		width: 25%;
+		margin-left: 37.5%;
+		margin-bottom: 20px;
 		margin-top:40px;
+	}
+	#film_guidelines {
+		padding-top:60px;
+		padding-bottom: 50px;
+	}
+	#challenges {
+		padding-top:60px;
+		padding-bottom: 50px;
+	}
+	#submit_a_film {
+		padding-top:60px;
+		padding-bottom: 50px;
+		min-height:0px;
+	}
+	#submit_a_film .button_row {
+		margin-top: 0px;
+	}
+	#entry_guidelines {
+		padding-top:20px;
+		padding-bottom: 30px;
+		.section_symbol {
+			width: 25%;
+			margin-left: 37.5%;
+			margin-bottom: 20px;
+		}
+	}
+	h3 {
+		font-size:56px;
+	}
+	.descriptions {
+		font-size:13pt;
+	}
+	#submit_a_film #film_spacer {
+		width: 50%;
+		margin-left: 25%;
+	}
+	#challenges #challenges_info_container {
+		margin-top:0;
+	}
+	#challenges #current_challenge h5 {
+		font-size: 24pt;
+		margin-top:0;
+	}
+	#entry_guidelines .descriptions {
+		font-size: 12pt;
+	}
+	h1 {
+		font-size:75px;
+	}
+	#banner {
+		margin-top:8%;
 	}
 }
 
@@ -250,5 +330,12 @@ a {
 	}
 	#mobile_nav {
 		display:block;
+	}
+}
+
+
+@media (max-width: 481px) {
+	h1 {
+		font-size:50px;
 	}
 }

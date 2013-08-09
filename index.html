@@ -50,17 +50,14 @@
 	    			}
 				});
 			}
+
+			$(".nav-button").click(function () {
+				$(".nav-button,.primary-nav").toggleClass("open");
+			});   
 		});		
 		
 		</script>
 
-				<script>
-		$(document).ready(function(){
-			$(".nav-button").click(function () {
-				$(".nav-button,.primary-nav").toggleClass("open");
-			});    
-		});
-		</script>
 	</head>
 
 	<body class=''>
@@ -147,7 +144,7 @@
 						<h3 style="">Film Challenges</h3>
 					</div>
 				</div>			
-				<div class="row" style='margin-top:20px;'>
+				<div class="row" id='challenges_info_container' >
 					<div class="col-lg-6" id='film_challenge_description'>
 						<p class='descriptions'>Film challenges are monthly challenges given out to demonstrate different film-making techniques. Past challenges include time-lapse videos and stop-motion animations. Submitted videos are judged by faculty members, and the winner awarded a prize.</p>
 					</div>
@@ -170,27 +167,27 @@
 			</div>
 		</div>
 
-		<div id='submit_a_film' style='padding-top: 110px;padding-bottom:70px;min-height:600px;background-image:url(cardboard_flat.png)'>
+		<div id='submit_a_film' style=''>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<h3 style="margin-top:0;color: #565D5F;opacity: 0.9;">Want to participate?</h3>
+						<h3 style="">Want to participate?</h3>
 					</div>
 				</div>
 				<div class="row">				
-					<div class="col-4 col-lg-2 col-lg-offset-3" style="height: 14px;border-bottom: 1px solid white;"></div>
+					<div class="col-4 col-lg-2 col-lg-offset-3 white_spacer"></div>
 					<div class="col-4 col-lg-2" style="">
-						<img src="film_strip.png" style="float: left;width: 70%;margin-left: 15%;">
+						<img src="film_strip.png" id='film_spacer'>
 					</div>
-					<div class="col-4  col-lg-2" style="height: 14px;border-bottom: 1px solid white;"></div>
+					<div class="col-4  col-lg-2 white_spacer"></div>
 				</div>		
-				<div class="row" style='margin-top:10px;'>
+				<div class="row description_row">
 					<div class="col-lg-8 col-lg-offset-2">
-						<p class='descriptions' style='text-align: center;'>Formosa Film Festival is accepting entries for the 2014 festival. Fill out the form before March 23, and your film will be added to the list.</p>
+						<p class='descriptions'>Formosa Film Festival is accepting entries for the 2014 festival. Fill out the form before March 23, and your film will be added to the list.</p>
 					</div>
 				</div>
-				<div class="row" style='margin-top:15px;'>
-					<div class="col-lg-3" id='button_container' style="">
+				<div class="row button_row">
+					<div class="col-lg-3" id='button_container'>
 						<button type="button" class="btn btn-success btn-lg btn-block">Submit A Film</button>
 					</div>
 				</div>
