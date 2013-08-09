@@ -34,9 +34,16 @@ h1 {
 
 #aboutFFF {
 	min-height:600px;
+	background: #2c3e50;
+	padding-top: 70px;
+	padding-bottom:70px;	
+	img {
+		padding: 5%;padding-top: 0px;max-width: 100%;padding-bottom: 0px;padding-right: 2%;margin-top: -2%;
+	}
 }
 
 #film_guidelines {
+	background: #783c5f;padding-top: 110px;padding-bottom:70px;min-height:600px;	
 	ul li {
 		font-size:13pt;
 		padding-top: 7px;
@@ -44,6 +51,12 @@ h1 {
 		strong {
 			color: rgb(197, 134, 134);
 		}
+	}
+	img {
+		padding-top: 0px;max-width: 100%;padding-bottom: 0px;
+	}
+	h3 {
+		margin-top:0;color: #AFAF3A;
 	}
 }
 
@@ -63,11 +76,7 @@ h3 {
 	text-align: center;
 }
 
-.row {
-	max-width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 
 .nav {
 	position: fixed;
@@ -95,5 +104,150 @@ h3 {
 	}
 	a:hover {
 		border-bottom: 1px solid white;
+	}
+}
+
+a {
+	text-decoration:none;
+}
+
+#entry_guidelines {
+	h4 {
+		margin-top: 0;
+		color: #F2FCFF;
+		font-family: Fjalla One;
+		text-align: center;
+		font-size: 25pt;
+	}
+	.section_symbol {
+		width: 42%;margin-left: 29%;
+		margin-bottom: 10px;
+	}
+	.descriptions {
+		font-size: 14pt;
+	}
+	ul {
+		list-style: circle inside; 
+	}
+
+}
+
+#guideline_links {
+	font-size: 10pt;text-align: center;margin-top:5px;color: #005BBD;
+}
+
+#menuFade {
+	background-color: rgba(83, 83, 83, 0.8);z-index: -1;display:none;
+	img {
+		height: 35px;margin: 7px;margin-left: 10px;
+	}
+}
+
+#banner {
+	text-align:center;margin-top: 6%;
+}
+
+#challenges {
+	background: #1D8B76;padding-top: 110px;padding-bottom:70px;min-height:600px;
+	h3 {
+		margin-top:0;color: #C1EFFA;opacity: 0.9;
+	}
+	.descriptions {
+		color: #FFFFFF;opacity: 0.9;font-size: 17pt;
+	}
+	#current_challenge {
+		text-align: center;
+		h4 {
+			font-family: Fjalla One;color: #CDDB68;opacity: 0.9;font-size: 22pt;
+		}
+		h5 {
+			font-family: Fjalla One;color: #E6E6E6;opacity: 0.9;font-size: 34pt;
+		}
+	}
+}
+
+#due_date {
+	background: url(challenge_due.png);width: 100px;height: 130px;background-size: 100px 100px;text-align: center;background-repeat: no-repeat;background-position: 0 30px;margin-top: -20px;
+	h6 {
+		font-weight: bold;
+		margin:0;
+	}
+	#text_due {
+		color: white;font-size: 14pt;padding-top: 5%;
+	}
+	#due_month {
+		color: white;font-size: 14pt;padding-top: 9%;
+	}
+	#due_day {
+		color: #34495e;font-size: 37pt;padding-top: 16%;
+	}
+}
+
+#entry_guidelines {
+	padding-top: 70px;padding-bottom:70px;min-height:600px;background: #61ADE0;
+	#entry_rules {
+		img {
+			width: 17.5%;margin-left: 41.25%;
+			margin-bottom: 10px;
+			margin-top: 10px;
+		}
+		p {
+			font-size:12pt;
+		}
+	}
+}
+
+#button_container {
+	margin-left: 37.5%;
+}
+
+#film_challenge_description {
+	border-right: 1px solid white;
+}
+
+@media (max-width: 1025px) {
+	#aboutFFF img {
+		max-width:40%;
+		margin-left:30%;
+	}
+	#film_guidelines img {
+		max-width:60%;
+		margin-left:20%;
+	}
+	#due_date {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top:5px;
+	}
+
+	#button_container {
+		margin-left: 0%;
+		button {
+			width: 50%;
+			margin-left: 25%;
+		}
+	}
+	#film_challenge_description {
+		border-right:none;
+	}
+	.section_symbol {
+		margin-top:40px;
+	}
+	#entry_guidelines #entry_rules img {
+		width: 42%;
+		margin-left: 29%;
+		margin-top:40px;
+	}
+}
+
+@media (max-width: 650px) {
+	.nav {
+		position:relative;
+	}
+	#menuFade {
+		display:block;
+	}
+	.navbar {
+		display:block;
 	}
 }
