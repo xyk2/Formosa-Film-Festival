@@ -26,14 +26,10 @@ h1 {
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
-	box-shadow: 0px 0px 20px #303030;
-	z-index: 1;
 	position: relative;
-	border-bottom: 1px solid rgb(107, 107, 107);
 }
 
 #aboutFFF {
-	min-height:600px;
 	background: #2c3e50;
 	padding-top: 70px;
 	padding-bottom:70px;	
@@ -43,7 +39,7 @@ h1 {
 }
 
 #film_guidelines {
-	background: #783c5f;padding-top: 110px;padding-bottom:70px;min-height:600px;	
+	background: #783c5f;padding-top: 110px;padding-bottom:70px;	
 	ul li {
 		font-size:13pt;
 		padding-top: 7px;
@@ -187,7 +183,7 @@ a {
 }
 
 #entry_guidelines {
-	padding-top: 70px;padding-bottom:70px;min-height:600px;background: #61ADE0;
+	padding-top: 70px;padding-bottom:70px;background: #61ADE0;
 	#entry_rules {
 		img {
 			width: 17.5%;margin-left: 41.25%;
@@ -213,7 +209,7 @@ a {
 }
 
 #submit_a_film {
-	padding-top: 110px;padding-bottom:70px;min-height:600px;background-image:url(cardboard_flat.png);
+	padding-top: 110px;padding-bottom:70px;background-image:url(cardboard_flat.png);
 	h3 {
 		margin-top:0;color: #565D5F;opacity: 0.9;
 	}
@@ -238,18 +234,28 @@ a {
 
 
 @media (max-width: 992px) {
+	.descriptions {
+		text-align:center;
+	}
 	#aboutFFF img {
 		max-width:40%;
 		margin-left:30%;
+	}
+	#aboutFFF {
+		padding-top: 7%;
+		padding-bottom: 5%;
 	}
 	#film_guidelines img {
 		max-width: 40%;
 		margin-left: 30%;
 	}
+	#film_guidelines ul {
+		text-align:center;
+	}
 	#due_date {
 		margin-left: auto;
 		margin-right: auto;
-		margin-top:5px;
+		margin-top:5px;margin-bottom: 10px;
 	}
 
 	#button_container {
@@ -297,7 +303,7 @@ a {
 		}
 	}
 	h3 {
-		font-size:56px;
+		font-size:50px;
 	}
 	.descriptions {
 		font-size:13pt;
@@ -337,5 +343,11 @@ a {
 @media (max-width: 481px) {
 	h1 {
 		font-size:50px;
+	}
+	#banner h2 {
+		font-size:20px;
+	}
+	#banner {
+		margin-top:6%;
 	}
 }
