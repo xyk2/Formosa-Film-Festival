@@ -4,17 +4,14 @@
 		<meta charset="UTF-8">
 		<title>Formosa Film Festival 2014</title>
 		
-		<link rel="stylesheet" href="./static/reset.css">
-		<script src="./static/jquery-1.10.2.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<link rel="stylesheet" href="./static/bootstrap.min.css">			
-		<link rel="stylesheet/less" type="text/css" href="style.less" />
-		<script src="./static/less-1.4.1.min.js"></script>
-		<script src="http://rawgithub.com/flesler/jquery.scrollTo/master/jquery.scrollTo.min.js"></script>
+		<link rel="stylesheet/less" type="text/css" href="style.less"/>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.4.1/less.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.3/jquery.scrollTo.min.js"></script>
 		<link id="favicon" rel="shortcut icon" type="image/x-icon" href="favicon.png" />
 
-		<link rel="stylesheet" type="text/css" media="screen" href="./mobile_dropdown/css/mobilemenu.css"/>
-
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
  		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -85,7 +82,7 @@
 						<a href='#submit_a_film'>Submit a Film</a>  
 					</div>
 					<div class="nav" id='menuFade'>
-						<img src="FFF_badge.png">
+						<div class="sprite fff-badge"></div>
 					</div>				
 			    </div>
 
@@ -102,7 +99,7 @@
 		<div id='aboutFFF' style=''>
 			<div class='container'>
 				<div class="row">
-					<img class="col-lg-5 col-lg-push-7" src='clapperboard.png' style=''>
+					<img class="col-lg-5 col-lg-push-7" src='clapperboard_opaque.jpg' style=''>
 					<div class="col-lg-7 col-lg-pull-5">
 						<div class='row'>
 							<h3 class='col-lg-12' style='color: #93AABD;'>About FFF</h3>
@@ -118,7 +115,7 @@
 		<div id='film_guidelines'>
 			<div class="container">
 				<div class="row">
-					<img class="col-lg-5" src='camera_flat.png'>
+					<img class="col-lg-5" src='camera_flat_opaque.jpg'>
 					<div class="col-lg-7">
 						<div class='row'>
 							<h3 class='col-lg-12'>Film Guidelines</h3>
@@ -155,7 +152,7 @@
 								<h5 style="">Create a time-lapse video featuring nature.</h5>
 							</div>
 							<div class="col-lg-3">
-								<div id="due_date">
+								<div class='sprite calendar' id="due_date">
 									<h6 id="text_due">DUE</h6>
 									<h6 id="due_month">February</h6>
 									<h6 id="due_day">31</h6>
@@ -170,7 +167,7 @@
 		<div id='submit_a_film' style=''>
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-lg-12" style='margin-bottom:20px;'>
 						<h3 style="">Want to participate?</h3>
 					</div>
 				</div>
@@ -201,7 +198,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-5 col-lg-offset-1">
-						<img class="section_symbol" src="gear.png">
+						<div class="sprite gear section_symbol"></div>
 						<h4>Tech Guidelines</h4>
 						<p class="descriptions">We want to make sure your film looks its best.  Please make sure your film is rendered with the following settings: </p>
 						<ul class="descriptions">
@@ -213,7 +210,7 @@
 						<p class="descriptions">In Corel VideoStudio, go to the Share tab then click on Create Video File. Follow the drop-down list to MPEG-4, and select MPEG-4 HD.  That’s it!</p>					
 					</div>
 					<div class="col-lg-5">
-						<img class="section_symbol" src="music_icon_tilt.png">
+						<div class="sprite music-icon section_symbol"></div>
 						<h4>Non-Original Music</h4>
 						<p class="descriptions" style="font-size:12pt;">The Formosa Film Festival urges all student film makers to comply with copyright restrictions in regards to the use of non-original music. The <a href="http://freeplaymusicclassic.com/licensing/ratecard.php#ffs" style="color: rgb(16, 73, 100);text-decoration: underline;">Student License for FreeplayMusic</a> stipulates that film makers producing videos posted on the Internet or submitted to contests with prizes must pay $25 per track of music. In addition, commercial labels in general require agreements for use of their music. You have until March 23, 2013 to secure permission in writing in order to be eligible to receive prizes and to have your video posted on the website. If you have questions, please contact any FFF coordinator. For entries without a music license or permission, we will accept and jury the film but the entry will be ineligible for a prize and for web posting.</p>
 					</div>
@@ -221,9 +218,9 @@
 				</div>
 				<div class="row" id='entry_rules'>
 					<div class="col-lg-12">
-						<img src="entry_rules.png">
+						<div class="sprite entry-rules section_symbol"></div>
 						<h4>Entry Rules</h4>
-						<p class="descriptions">The Formosa Film Festival reserves the right to reject any entry on the basis of objectionable content that might be potentially insulting, inflammatory images, or rude language. The Formosa Film Festival does not assume responsibility for phone, technical, network, electronic, computer, and hardware or software failure of any kind; or lost, late, misdirected, damaged, illegible, stolen, incomplete, misaddressed entries. Entries can be disqualified if this Entry From is not complete or if video files are not clearly labeled. By entering the Formosa Film Festival, the applicants: (1) agree to the official rules and the decisions of the judges which will be final in all respects; (2) consent to the use of names and likenesses, the name of his/her school or other affiliation (if applicable) and any statements, quotes or testimonials, photographs, designs, models, web content and/or any other audio-visual materials provided by the applicant for advertising, trade and publicity purposes. (3) grants the Formosa Film Festival and its authorized agents the assigned rights to reprint, display, reproduce, perform or exhibit the entry without limitation and without any compensation to any party, except where prohibited by law; (4) release the Formosa Film Festival, its subsidiaries, and affiliates from any and all liability for any injuries, losses or damages of any kind caused by any prize or resulting from award, acceptance, possession or use of any prize, or failure to award any prize. (5) must wholly own valid entries and their contents. Each applicant warrants and represents that he/she is the independent creator of the submitted entry; the entry is original and owned by applicant; the entry is free of any claims by other parties. The applicant is solely responsible for any copyright infringement; all music, images, and footage must be original and/or copyright free and/or obtained from creative commons. Documents or licenses granting permission to use copyrighted music, images or footage must be submitted with entry.</p>
+						<p class="descriptions">The Formosa Film Festival reserves the right to reject any entry on the basis of objectionable content that might be potentially insulting, inflammatory images, or rude language. The Formosa Film Festival does not assume responsibility for phone, technical, network, electronic, computer, and hardware or software failure of any kind; or lost, late, misdirected, damaged, illegible, stolen, incomplete, misaddressed entries. Entries can be disqualified if the Entry Form is not complete or if video files are not clearly labeled. By entering the Formosa Film Festival, the applicants: (1) agree to the official rules and the decisions of the judges which will be final in all respects; (2) consent to the use of names and likenesses, the name of his/her school or other affiliation (if applicable) and any statements, quotes or testimonials, photographs, designs, models, web content and/or any other audio-visual materials provided by the applicant for advertising, trade and publicity purposes. (3) grants the Formosa Film Festival and its authorized agents the assigned rights to reprint, display, reproduce, perform or exhibit the entry without limitation and without any compensation to any party, except where prohibited by law; (4) release the Formosa Film Festival, its subsidiaries, and affiliates from any and all liability for any injuries, losses or damages of any kind caused by any prize or resulting from award, acceptance, possession or use of any prize, or failure to award any prize. (5) must wholly own valid entries and their contents. Each applicant warrants and represents that he/she is the independent creator of the submitted entry; the entry is original and owned by applicant; the entry is free of any claims by other parties. The applicant is solely responsible for any copyright infringement; all music, images, and footage must be original and/or copyright free and/or obtained from creative commons. Documents or licenses granting permission to use copyrighted music, images or footage must be submitted with entry.</p>
 					</div>
 				</div>
 			</div>
