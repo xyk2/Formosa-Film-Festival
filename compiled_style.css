@@ -1,0 +1,510 @@
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+h1 {
+  font-family: Fjalla One;
+  color: #EEEEEE;
+  font-size: 95px;
+  text-shadow: 0px 3px 18px #252424;
+}
+#banner h2 {
+  font-family: Open Sans;
+  color: whiteSmoke;
+  font-size: 30px;
+  text-shadow: 0px 2px 7px #000000;
+  line-height: 0;
+}
+#masthead {
+  height: 100%;
+  background-image: url("masthead_textless_wide_1080_compressed.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#aboutFFF {
+  background: #2c3e50;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+#aboutFFF img {
+  padding: 5%;
+  padding-top: 0px;
+  max-width: 100%;
+  padding-bottom: 0px;
+  padding-right: 2%;
+  margin-top: -2%;
+}
+#film_guidelines {
+  background: #783c5f;
+  padding-top: 110px;
+  padding-bottom: 70px;
+}
+#film_guidelines ul li {
+  font-size: 13pt;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+#film_guidelines ul li strong {
+  color: #c58686;
+}
+#film_guidelines img {
+  padding-top: 0px;
+  max-width: 100%;
+  padding-bottom: 0px;
+}
+#film_guidelines h3 {
+  margin-top: 0;
+  color: #AFAF3A;
+}
+.description_container {
+  color: #DDDDDD;
+  font-family: Open Sans;
+}
+.descriptions {
+  font-size: 18pt;
+  font-family: Open Sans;
+}
+h3 {
+  font-family: Fjalla One;
+  font-size: 80px;
+  text-align: center;
+}
+.nav {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+  height: 48px;
+}
+.internalNav {
+  float: right;
+  font-size: 18px;
+  font-family: Open Sans;
+}
+.internalNav a {
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 12px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.internalNav a:hover {
+  border-bottom: 1px solid white;
+}
+a {
+  text-decoration: none;
+}
+#guideline_links {
+  font-size: 10pt;
+  text-align: center;
+  margin-top: 5px;
+  color: #005BBD;
+}
+#menuFade {
+  background-color: rgba(83, 83, 83, 0.8);
+  z-index: -1;
+  display: none;
+}
+#menuFade img {
+  height: 35px;
+  margin: 7px;
+  margin-left: 10px;
+}
+#banner {
+  text-align: center;
+  margin-top: 6%;
+}
+#challenges {
+  background: #1D8B76;
+  padding-top: 110px;
+  padding-bottom: 70px;
+}
+#challenges h3 {
+  margin-top: 0;
+  color: #C1EFFA;
+  opacity: 0.9;
+}
+#challenges .descriptions {
+  color: #FFFFFF;
+  opacity: 0.9;
+}
+#challenges #current_challenge {
+  text-align: center;
+}
+#challenges #current_challenge h4 {
+  font-family: Fjalla One;
+  color: #CDDB68;
+  opacity: 0.9;
+  font-size: 22pt;
+}
+#challenges #current_challenge h5 {
+  font-family: Fjalla One;
+  color: #E6E6E6;
+  opacity: 0.9;
+  font-size: 34pt;
+}
+#challenges #challenges_info_container {
+  margin-top: 20px;
+}
+#due_date h6 {
+  font-weight: bold;
+  margin: 0;
+}
+#due_date #text_due {
+  color: white;
+  font-size: 14pt;
+  padding-top: 5%;
+}
+#due_date #due_month {
+  color: white;
+  font-size: 14pt;
+  padding-top: 9%;
+}
+#due_date #due_day {
+  color: #34495e;
+  font-size: 37pt;
+  padding-top: 16%;
+}
+#entry_guidelines {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: #61ADE0;
+}
+#entry_guidelines #entry_rules img {
+  margin-top: 10px;
+}
+#entry_guidelines #entry_rules p {
+  font-size: 12pt;
+}
+#entry_guidelines h4 {
+  margin-top: 0;
+  color: #F2FCFF;
+  font-family: Fjalla One;
+  text-align: center;
+  font-size: 25pt;
+}
+#entry_guidelines .section_symbol {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  display: block;
+}
+#entry_guidelines .descriptions {
+  font-size: 14pt;
+}
+#entry_guidelines ul {
+  list-style: circle inside;
+}
+#button_container {
+  margin-left: 37.5%;
+}
+#film_challenge_description {
+  border-right: 1px solid white;
+}
+#mobile_nav {
+  display: none;
+}
+#submit_a_film {
+  padding-top: 110px;
+  padding-bottom: 70px;
+  background-image: url(cardboard_flat.jpg);
+}
+#submit_a_film h3 {
+  margin-top: 0;
+  color: #565D5F;
+  opacity: 0.9;
+}
+#submit_a_film .white_spacer {
+  height: 14px;
+  border-bottom: 1px solid white;
+}
+#submit_a_film #film_spacer {
+  float: left;
+  width: 70%;
+  margin-left: 15%;
+}
+#submit_a_film .description_row {
+  margin-top: 10px;
+}
+#submit_a_film .descriptions {
+  text-align: center;
+}
+#submit_a_film .button_row {
+  margin-top: 15px;
+}
+@media (max-width: 992px) {
+  .descriptions {
+    text-align: center;
+  }
+  #aboutFFF img {
+    max-width: 40%;
+    margin-left: 30%;
+  }
+  #aboutFFF {
+    padding-top: 7%;
+    padding-bottom: 5%;
+  }
+  #film_guidelines img {
+    max-width: 40%;
+    margin-left: 30%;
+  }
+  #film_guidelines ul {
+    text-align: center;
+  }
+  #due_date {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  #button_container {
+    margin-left: 0%;
+  }
+  #button_container button {
+    width: 50%;
+    margin-left: 25%;
+  }
+  #film_challenge_description {
+    border-right: none;
+  }
+  #film_guidelines {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  #challenges {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  #submit_a_film {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    min-height: 0px;
+  }
+  #submit_a_film .button_row {
+    margin-top: 0px;
+  }
+  #entry_guidelines {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  #entry_guidelines .section_symbol {
+    margin-bottom: 20px;
+    margin-top: 25px;
+  }
+  .mobile_icon {
+    width: 170px !important;
+    height: 170px !important;
+    background-size: 170px !important;
+  }
+  .music-icon {
+    background-position: 0px 0px !important;
+    width: 170px !important;
+    height: 170px !important;
+    background-size: 170px !important;
+  }
+  .entry-rules {
+    background-position: 0px -170px !important;
+    width: 170px !important;
+    height: 170px !important;
+    background-size: 170px !important;
+  }
+  .gear {
+    background-position: 0px -340px !important;
+    width: 170px !important;
+    height: 170px !important;
+    background-size: 170px !important;
+  }
+  h3 {
+    font-size: 50px;
+  }
+  .descriptions {
+    font-size: 13pt;
+  }
+  #submit_a_film #film_spacer {
+    width: 50%;
+    margin-left: 25%;
+  }
+  #challenges #challenges_info_container {
+    margin-top: 0;
+  }
+  #challenges #current_challenge h5 {
+    font-size: 24pt;
+    margin-top: 0;
+  }
+  #entry_guidelines .descriptions {
+    font-size: 12pt;
+  }
+  h1 {
+    font-size: 75px;
+  }
+  #banner {
+    margin-top: 8%;
+  }
+  #film_guideliens ul {
+    list-style: none;
+  }
+}
+@media (max-width: 650px) {
+  .nav {
+    display: none;
+  }
+  #mobile_nav {
+    display: block;
+  }
+}
+@media (max-width: 481px) {
+  h1 {
+    font-size: 50px;
+  }
+  #banner h2 {
+    font-size: 20px;
+  }
+  #banner {
+    margin-top: 6%;
+  }
+}
+.sprite {
+  display: block;
+  background: url('sprite_mod.png') no-repeat;
+}
+.music-icon {
+  background-position: 0px 0px;
+  width: 200px;
+  height: 200px;
+  background-size: 200px;
+}
+.entry-rules {
+  background-position: 0px -200px;
+  width: 200px;
+  height: 200px;
+  background-size: 200px;
+}
+.gear {
+  background-position: 0px -400px;
+  width: 200px;
+  height: 200px;
+  background-size: 200px;
+}
+.calendar {
+  width: 100px;
+  height: 130px;
+  background-position: 0px -453px;
+  background-size: 150px;
+  margin-top: -20px;
+}
+.fff-badge {
+  background-position: -200px -966px;
+  width: 70px;
+  height: 33px;
+  margin: 7px;
+  margin-left: 10px;
+}
+.film-strip {
+  background-position: 0px -1100px;
+  width: 130px;
+  height: 34px;
+}
+.nav-button {
+  display: none;
+}
+/* hide the navigation button by default */
+@media only screen and (min-width: 0px) and (max-width: 650px) {
+  /* Navigation Button
+    -------------------------------------------------------- */
+  .nav-button {
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 50px;
+    height: 35px;
+    background: url('../img/menu-icon-large.png') #666666;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 21px, 100%;
+    cursor: pointer;
+    border: 0 none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.7) inset;
+    border-radius: 5px;
+    z-index: 999;
+    text-indent: -9999px;
+    margin-top: -50px;
+  }
+  .nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .nav-button.open {
+    background: url('../img/close-icon-large.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 21px, 100%;
+  }
+  /* Navigation Bar
+    -------------------------------------------------------- */
+  body {
+    padding-top: 50px;
+  }
+  .primary-nav {
+    width: 100%;
+    float: none;
+    background-color: #535353;
+    /* change the menu color */
+   
+    display: block;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 998;
+    clear: both;
+    margin-top: -50px;
+  }
+  .primary-nav li {
+    display: none;
+    width: 100%;
+    font-family: Arial;
+  }
+  .primary-nav li a {
+    display: block;
+    width: 100%;
+    padding: 10px 5%;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.15);
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .primary-nav li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-color: transparent;
+  }
+  .primary-nav > li:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  /* Toggle the navigation bar open  */
+  .primary-nav.open {
+    height: auto;
+    padding-top: 50px;
+    background-color: #5E5E5E;
+  }
+  .primary-nav.open li {
+    display: block;
+    text-align: center;
+  }
+}
+/* End Mobile Styles */
